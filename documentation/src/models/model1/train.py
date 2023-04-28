@@ -12,7 +12,8 @@ random_seed = 42
 
 # Set paths for data and model
 model_path = 'models/svm_model.pkl'
-data_path = 'data/raw/Iris.csv'
+data_path ='./documentation/data/raw/iris.csv'
+
 
 # Load the data
 X_train, X_test, y_train, y_test = load_data(data_path)
