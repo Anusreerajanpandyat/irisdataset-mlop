@@ -11,8 +11,8 @@ import pickle
 random_seed = 42
 
 # Set paths for data and model
-model_path = 'C:/Users/243415/Documents/irisdataset/documentation/models/svm_model.pkl'
-data_path = 'C:/Users/243415/Documents/irisdataset/documentation/data/raw/Iris.csv'
+model_path = 'models/svm_model.pkl'
+data_path = 'data/raw/Iris.csv'
 
 # Load the data
 X_train, X_test, y_train, y_test = load_data(data_path)
