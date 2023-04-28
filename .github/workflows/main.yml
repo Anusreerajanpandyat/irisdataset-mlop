@@ -32,6 +32,7 @@ jobs:
         curl -o data/raw/iris.csv https://example.com/data.csv
     - name: Train Model
       run: |
+        cd documentation
         python src/models/model1/train.py
     - name: Evaluate Model
       run: |
