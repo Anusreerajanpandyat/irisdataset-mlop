@@ -33,11 +33,10 @@ jobs:
     - name: Train Model
       run: |
         cd documentation
-        
         python src/models/model1/train.py
    
     - name: Save Model
-        cd documentation
       run: |
-        python src/models/model1/save_model.py
+       cd documentation
+       python src/models/model1/save_model.py
 
