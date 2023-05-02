@@ -10,8 +10,8 @@ import pickle
 # Set random seed for reproducibility
 random_seed = 42
 
-# Set paths for data and model
-model_path = 'models/svm_model.pkl'
+# Set paths for data 
+
 data_path ='Iris.csv'
 
 
@@ -34,8 +34,5 @@ clf.train(X_train_std, y_train)
 accuracy = clf.clf.score(X_test_std, y_test)
 print(f"Accuracy: {accuracy:.2f}")
 
-# Save the trained model
-os.makedirs(os.path.dirname(model_path), exist_ok=True)
-with open(model_path, "wb") as f:
-    pickle.dump(clf, f)
+
 
