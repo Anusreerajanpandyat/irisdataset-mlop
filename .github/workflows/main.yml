@@ -35,9 +35,7 @@ jobs:
         cd documentation
         
         python src/models/model1/train.py
-    - name: Evaluate Model
-      run: |
-        python src/visualization/evaluation.py
+   
     - name: Save Model
       run: |
         python src/models/model1/save_model.py
