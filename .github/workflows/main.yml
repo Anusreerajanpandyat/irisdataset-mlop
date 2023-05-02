@@ -33,6 +33,7 @@ jobs:
     - name: Train Model
       run: |
         cd documentation
+        ls -R
         python src/models/model1/train.py
     - name: Evaluate Model
       run: |
