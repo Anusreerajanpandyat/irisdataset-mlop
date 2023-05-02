@@ -13,6 +13,7 @@ random_seed = 42
 # Set paths for data 
 
 data_path ='Iris.csv'
+model_path = 'models/svm_model.pkl'
 
 
 # Load the data
