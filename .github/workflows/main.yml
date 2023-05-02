@@ -37,6 +37,7 @@ jobs:
         python src/models/model1/train.py
    
     - name: Save Model
+        cd documentation
       run: |
-        python models/model1/save_model.py
+        python src/models/model1/save_model.py
 
